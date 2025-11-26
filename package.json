@@ -1,13 +1,14 @@
 {
   "name": "dict-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple dictionary web app using express js.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "nk-900",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
