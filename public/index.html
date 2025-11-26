@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Dictionary API</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class = "header">
+            <h1> Dictionary API</h1>
+            <p>What would you like defined?</p>
+        </header>
+
+        <main class="main">
+            <form id="lookup-form" class="lookup-form">
+                <div class="input-row">
+                    <input
+                      id="word-input"
+                      name="word"
+                      type="text"
+                      placeholder="e.g. ingratiate, fortune..."
+                      autocomplete="off"
+                        required
+                    />
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+
+            <section id="status" class="status">
+                <p>Enter a word and press <strong>Search<strong>.</p>
+            </section>
+
+            <section id="results" class="results"></section>
+        </main>
+
+        <footer class="footer">
+            <p>Powered by the Free Dictionary API &amp; Express.js</p>
+        </footer>
+    </div>
+</body>
+
+</html>
